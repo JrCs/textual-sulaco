@@ -27,7 +27,7 @@ Sulaco is a dark theme for the Textual IRC client. It looks nice.
 
 ```
 cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support/Textual\ IRC/Styles
-git clone git://github.com/rgrove/textual-sulaco.git Sulaco
+git clone git://github.com/JrCs/textual-sulaco.git Sulaco
 ```
 
 ## License
