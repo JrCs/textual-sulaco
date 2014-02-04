@@ -112,20 +112,6 @@ body[type*=server] .event .message:before {
     background: inherit;
 }
 
-.text:hover,
-body[type*=server] .line:hover {
-    outline: 1px solid #666;
-}
-
-.text:hover .message,
-.text:hover .sender,
-.text:hover .time,
-body[type*=server] .line:hover .message,
-body[type*=server] .line:hover .time {
-    background-color: #444;
-    color: #fff;
-}
-
 .text[highlight*=true],
 .text[highlight*=true] .time {
     color: #fff;
@@ -150,12 +136,6 @@ body[type*=server] .line:hover .time {
 .text[highlight*=true] .sender,
 .text[highlight*=true] .time {
     background-color: #1b3458;
-}
-
-.text[highlight*=true]:hover .message,
-.text[highlight*=true]:hover .sender,
-.text[highlight*=true]:hover .time {
-    background-color: #204571;
 }
 
 .znc-playback-end {
